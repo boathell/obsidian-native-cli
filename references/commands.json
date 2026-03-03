@@ -1,0 +1,1109 @@
+[
+  {
+    "section": "General commands",
+    "command": "help",
+    "parameters": [
+      "<command>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "General commands",
+    "command": "version",
+    "parameters": [],
+    "flags": []
+  },
+  {
+    "section": "General commands",
+    "command": "reload",
+    "parameters": [],
+    "flags": []
+  },
+  {
+    "section": "General commands",
+    "command": "restart",
+    "parameters": [],
+    "flags": []
+  },
+  {
+    "section": "Bases",
+    "command": "bases",
+    "parameters": [],
+    "flags": []
+  },
+  {
+    "section": "Bases",
+    "command": "base:views",
+    "parameters": [],
+    "flags": []
+  },
+  {
+    "section": "Bases",
+    "command": "base:create",
+    "parameters": [
+      "file=<name>",
+      "path=<path>",
+      "view=<name>",
+      "name=<name>",
+      "content=<text>"
+    ],
+    "flags": [
+      "open",
+      "newtab"
+    ]
+  },
+  {
+    "section": "Bases",
+    "command": "base:query",
+    "parameters": [
+      "file=<name>",
+      "path=<path>",
+      "view=<name>",
+      "format=json|csv|tsv|md|paths"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Bookmarks",
+    "command": "bookmarks",
+    "parameters": [
+      "format=json|tsv|csv"
+    ],
+    "flags": [
+      "total",
+      "verbose"
+    ]
+  },
+  {
+    "section": "Bookmarks",
+    "command": "bookmark",
+    "parameters": [
+      "file=<path>",
+      "subpath=<subpath>",
+      "folder=<path>",
+      "search=<query>",
+      "url=<url>",
+      "title=<title>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Command palette",
+    "command": "commands",
+    "parameters": [
+      "filter=<prefix>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Command palette",
+    "command": "command",
+    "parameters": [
+      "id=<command-id>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Command palette",
+    "command": "hotkeys",
+    "parameters": [
+      "format=json|tsv|csv"
+    ],
+    "flags": [
+      "total",
+      "verbose"
+    ]
+  },
+  {
+    "section": "Command palette",
+    "command": "hotkey",
+    "parameters": [
+      "id=<command-id>"
+    ],
+    "flags": [
+      "verbose"
+    ]
+  },
+  {
+    "section": "Daily notes",
+    "command": "daily",
+    "parameters": [
+      "paneType=tab|split|window"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Daily notes",
+    "command": "daily:path",
+    "parameters": [],
+    "flags": []
+  },
+  {
+    "section": "Daily notes",
+    "command": "daily:read",
+    "parameters": [],
+    "flags": []
+  },
+  {
+    "section": "Daily notes",
+    "command": "daily:append",
+    "parameters": [
+      "content=<text>",
+      "paneType=tab|split|window"
+    ],
+    "flags": [
+      "inline",
+      "open"
+    ]
+  },
+  {
+    "section": "Daily notes",
+    "command": "daily:prepend",
+    "parameters": [
+      "content=<text>",
+      "paneType=tab|split|window"
+    ],
+    "flags": [
+      "inline",
+      "open"
+    ]
+  },
+  {
+    "section": "File history",
+    "command": "diff",
+    "parameters": [
+      "file=<name>",
+      "path=<path>",
+      "from=<n>",
+      "to=<n>",
+      "filter=local|sync"
+    ],
+    "flags": []
+  },
+  {
+    "section": "File history",
+    "command": "history",
+    "parameters": [
+      "file=<name>",
+      "path=<path>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "File history",
+    "command": "history:list",
+    "parameters": [],
+    "flags": []
+  },
+  {
+    "section": "File history",
+    "command": "history:read",
+    "parameters": [
+      "file=<name>",
+      "path=<path>",
+      "version=<n>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "File history",
+    "command": "history:restore",
+    "parameters": [
+      "file=<name>",
+      "path=<path>",
+      "version=<n>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "File history",
+    "command": "history:open",
+    "parameters": [
+      "file=<name>",
+      "path=<path>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Files and folders",
+    "command": "file",
+    "parameters": [
+      "file=<name>",
+      "path=<path>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Files and folders",
+    "command": "files",
+    "parameters": [
+      "folder=<path>",
+      "ext=<extension>"
+    ],
+    "flags": [
+      "total"
+    ]
+  },
+  {
+    "section": "Files and folders",
+    "command": "folder",
+    "parameters": [
+      "path=<path>",
+      "info=files|folders|size"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Files and folders",
+    "command": "folders",
+    "parameters": [
+      "folder=<path>"
+    ],
+    "flags": [
+      "total"
+    ]
+  },
+  {
+    "section": "Files and folders",
+    "command": "open",
+    "parameters": [
+      "file=<name>",
+      "path=<path>"
+    ],
+    "flags": [
+      "newtab"
+    ]
+  },
+  {
+    "section": "Files and folders",
+    "command": "create",
+    "parameters": [
+      "name=<name>",
+      "path=<path>",
+      "content=<text>",
+      "template=<name>"
+    ],
+    "flags": [
+      "overwrite",
+      "open",
+      "newtab"
+    ]
+  },
+  {
+    "section": "Files and folders",
+    "command": "read",
+    "parameters": [
+      "file=<name>",
+      "path=<path>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Files and folders",
+    "command": "append",
+    "parameters": [
+      "file=<name>",
+      "path=<path>",
+      "content=<text>"
+    ],
+    "flags": [
+      "inline"
+    ]
+  },
+  {
+    "section": "Files and folders",
+    "command": "prepend",
+    "parameters": [
+      "file=<name>",
+      "path=<path>",
+      "content=<text>"
+    ],
+    "flags": [
+      "inline"
+    ]
+  },
+  {
+    "section": "Files and folders",
+    "command": "move",
+    "parameters": [
+      "file=<name>",
+      "path=<path>",
+      "to=<path>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Files and folders",
+    "command": "rename",
+    "parameters": [
+      "file=<name>",
+      "path=<path>",
+      "name=<name>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Files and folders",
+    "command": "delete",
+    "parameters": [
+      "file=<name>",
+      "path=<path>"
+    ],
+    "flags": [
+      "permanent"
+    ]
+  },
+  {
+    "section": "Links",
+    "command": "backlinks",
+    "parameters": [
+      "file=<name>",
+      "path=<path>",
+      "format=json|tsv|csv"
+    ],
+    "flags": [
+      "counts",
+      "total"
+    ]
+  },
+  {
+    "section": "Links",
+    "command": "links",
+    "parameters": [
+      "file=<name>",
+      "path=<path>"
+    ],
+    "flags": [
+      "total"
+    ]
+  },
+  {
+    "section": "Links",
+    "command": "unresolved",
+    "parameters": [
+      "format=json|tsv|csv"
+    ],
+    "flags": [
+      "total",
+      "counts",
+      "verbose"
+    ]
+  },
+  {
+    "section": "Links",
+    "command": "orphans",
+    "parameters": [],
+    "flags": [
+      "total"
+    ]
+  },
+  {
+    "section": "Links",
+    "command": "deadends",
+    "parameters": [],
+    "flags": [
+      "total"
+    ]
+  },
+  {
+    "section": "Outline",
+    "command": "outline",
+    "parameters": [
+      "file=<name>",
+      "path=<path>",
+      "format=tree|md|json"
+    ],
+    "flags": [
+      "total"
+    ]
+  },
+  {
+    "section": "Plugins",
+    "command": "plugins",
+    "parameters": [
+      "filter=core|community",
+      "format=json|tsv|csv"
+    ],
+    "flags": [
+      "versions"
+    ]
+  },
+  {
+    "section": "Plugins",
+    "command": "plugins:enabled",
+    "parameters": [
+      "filter=core|community",
+      "format=json|tsv|csv"
+    ],
+    "flags": [
+      "versions"
+    ]
+  },
+  {
+    "section": "Plugins",
+    "command": "plugins:restrict",
+    "parameters": [],
+    "flags": [
+      "on",
+      "off"
+    ]
+  },
+  {
+    "section": "Plugins",
+    "command": "plugin",
+    "parameters": [
+      "id=<plugin-id>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Plugins",
+    "command": "plugin:enable",
+    "parameters": [
+      "id=<id>",
+      "filter=core|community"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Plugins",
+    "command": "plugin:disable",
+    "parameters": [
+      "id=<id>",
+      "filter=core|community"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Plugins",
+    "command": "plugin:install",
+    "parameters": [
+      "id=<id>"
+    ],
+    "flags": [
+      "enable"
+    ]
+  },
+  {
+    "section": "Plugins",
+    "command": "plugin:uninstall",
+    "parameters": [
+      "id=<id>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Plugins",
+    "command": "plugin:reload",
+    "parameters": [
+      "id=<id>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Properties",
+    "command": "aliases",
+    "parameters": [
+      "file=<name>",
+      "path=<path>"
+    ],
+    "flags": [
+      "total",
+      "verbose",
+      "active"
+    ]
+  },
+  {
+    "section": "Properties",
+    "command": "properties",
+    "parameters": [
+      "file=<name>",
+      "path=<path>",
+      "name=<name>",
+      "sort=count",
+      "format=yaml|json|tsv"
+    ],
+    "flags": [
+      "total",
+      "counts",
+      "active"
+    ]
+  },
+  {
+    "section": "Properties",
+    "command": "property:set",
+    "parameters": [
+      "name=<name>",
+      "value=<value>",
+      "type=text|list|number|checkbox|date|datetime",
+      "file=<name>",
+      "path=<path>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Properties",
+    "command": "property:remove",
+    "parameters": [
+      "name=<name>",
+      "file=<name>",
+      "path=<path>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Properties",
+    "command": "property:read",
+    "parameters": [
+      "name=<name>",
+      "file=<name>",
+      "path=<path>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Publish",
+    "command": "publish:site",
+    "parameters": [],
+    "flags": []
+  },
+  {
+    "section": "Publish",
+    "command": "publish:list",
+    "parameters": [],
+    "flags": [
+      "total"
+    ]
+  },
+  {
+    "section": "Publish",
+    "command": "publish:status",
+    "parameters": [],
+    "flags": [
+      "total",
+      "new",
+      "changed",
+      "deleted"
+    ]
+  },
+  {
+    "section": "Publish",
+    "command": "publish:add",
+    "parameters": [
+      "file=<name>",
+      "path=<path>"
+    ],
+    "flags": [
+      "changed"
+    ]
+  },
+  {
+    "section": "Publish",
+    "command": "publish:remove",
+    "parameters": [
+      "file=<name>",
+      "path=<path>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Publish",
+    "command": "publish:open",
+    "parameters": [
+      "file=<name>",
+      "path=<path>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Random notes",
+    "command": "random",
+    "parameters": [
+      "folder=<path>"
+    ],
+    "flags": [
+      "newtab"
+    ]
+  },
+  {
+    "section": "Random notes",
+    "command": "random:read",
+    "parameters": [
+      "folder=<path>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Search",
+    "command": "search",
+    "parameters": [
+      "query=<text>",
+      "path=<folder>",
+      "limit=<n>",
+      "format=text|json"
+    ],
+    "flags": [
+      "total",
+      "case"
+    ]
+  },
+  {
+    "section": "Search",
+    "command": "search:context",
+    "parameters": [
+      "query=<text>",
+      "path=<folder>",
+      "limit=<n>",
+      "format=text|json"
+    ],
+    "flags": [
+      "case"
+    ]
+  },
+  {
+    "section": "Search",
+    "command": "search:open",
+    "parameters": [
+      "query=<text>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Sync",
+    "command": "sync",
+    "parameters": [],
+    "flags": [
+      "on",
+      "off"
+    ]
+  },
+  {
+    "section": "Sync",
+    "command": "sync:status",
+    "parameters": [],
+    "flags": []
+  },
+  {
+    "section": "Sync",
+    "command": "sync:history",
+    "parameters": [
+      "file=<name>",
+      "path=<path>"
+    ],
+    "flags": [
+      "total"
+    ]
+  },
+  {
+    "section": "Sync",
+    "command": "sync:read",
+    "parameters": [
+      "file=<name>",
+      "path=<path>",
+      "version=<n>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Sync",
+    "command": "sync:restore",
+    "parameters": [
+      "file=<name>",
+      "path=<path>",
+      "version=<n>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Sync",
+    "command": "sync:open",
+    "parameters": [
+      "file=<name>",
+      "path=<path>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Sync",
+    "command": "sync:deleted",
+    "parameters": [],
+    "flags": [
+      "total"
+    ]
+  },
+  {
+    "section": "Tags",
+    "command": "tags",
+    "parameters": [
+      "file=<name>",
+      "path=<path>",
+      "sort=count",
+      "format=json|tsv|csv"
+    ],
+    "flags": [
+      "total",
+      "counts",
+      "active"
+    ]
+  },
+  {
+    "section": "Tags",
+    "command": "tag",
+    "parameters": [
+      "name=<tag>"
+    ],
+    "flags": [
+      "total",
+      "verbose"
+    ]
+  },
+  {
+    "section": "Tasks",
+    "command": "tasks",
+    "parameters": [
+      "file=<name>",
+      "path=<path>",
+      "status=\"<char>\"",
+      "format=json|tsv|csv"
+    ],
+    "flags": [
+      "total",
+      "done",
+      "todo",
+      "verbose",
+      "active",
+      "daily"
+    ]
+  },
+  {
+    "section": "Tasks",
+    "command": "task",
+    "parameters": [
+      "ref=<path:line>",
+      "file=<name>",
+      "path=<path>",
+      "line=<n>",
+      "status=\"<char>\""
+    ],
+    "flags": [
+      "toggle",
+      "daily",
+      "done",
+      "todo"
+    ]
+  },
+  {
+    "section": "Templates",
+    "command": "templates",
+    "parameters": [],
+    "flags": [
+      "total"
+    ]
+  },
+  {
+    "section": "Templates",
+    "command": "template:read",
+    "parameters": [
+      "name=<template>",
+      "title=<title>"
+    ],
+    "flags": [
+      "resolve"
+    ]
+  },
+  {
+    "section": "Templates",
+    "command": "template:insert",
+    "parameters": [
+      "name=<template>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Themes and snippets",
+    "command": "themes",
+    "parameters": [],
+    "flags": [
+      "versions"
+    ]
+  },
+  {
+    "section": "Themes and snippets",
+    "command": "theme",
+    "parameters": [
+      "name=<name>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Themes and snippets",
+    "command": "theme:set",
+    "parameters": [
+      "name=<name>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Themes and snippets",
+    "command": "theme:install",
+    "parameters": [
+      "name=<name>"
+    ],
+    "flags": [
+      "enable"
+    ]
+  },
+  {
+    "section": "Themes and snippets",
+    "command": "theme:uninstall",
+    "parameters": [
+      "name=<name>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Themes and snippets",
+    "command": "snippets",
+    "parameters": [],
+    "flags": []
+  },
+  {
+    "section": "Themes and snippets",
+    "command": "snippets:enabled",
+    "parameters": [],
+    "flags": []
+  },
+  {
+    "section": "Themes and snippets",
+    "command": "snippet:enable",
+    "parameters": [
+      "name=<name>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Themes and snippets",
+    "command": "snippet:disable",
+    "parameters": [
+      "name=<name>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Unique notes",
+    "command": "unique",
+    "parameters": [
+      "name=<text>",
+      "content=<text>",
+      "paneType=tab|split|window"
+    ],
+    "flags": [
+      "open"
+    ]
+  },
+  {
+    "section": "Vault",
+    "command": "vault",
+    "parameters": [
+      "info=name|path|files|folders|size"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Vault",
+    "command": "vaults",
+    "parameters": [],
+    "flags": [
+      "total",
+      "verbose"
+    ]
+  },
+  {
+    "section": "Vault",
+    "command": "vault:open",
+    "parameters": [
+      "name=<name>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Web viewer",
+    "command": "web",
+    "parameters": [
+      "url=<url>"
+    ],
+    "flags": [
+      "newtab"
+    ]
+  },
+  {
+    "section": "Wordcount",
+    "command": "wordcount",
+    "parameters": [
+      "file=<name>",
+      "path=<path>"
+    ],
+    "flags": [
+      "words",
+      "characters"
+    ]
+  },
+  {
+    "section": "Workspace",
+    "command": "workspace",
+    "parameters": [],
+    "flags": [
+      "ids"
+    ]
+  },
+  {
+    "section": "Workspace",
+    "command": "workspaces",
+    "parameters": [],
+    "flags": [
+      "total"
+    ]
+  },
+  {
+    "section": "Workspace",
+    "command": "workspace:save",
+    "parameters": [
+      "name=<name>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Workspace",
+    "command": "workspace:load",
+    "parameters": [
+      "name=<name>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Workspace",
+    "command": "workspace:delete",
+    "parameters": [
+      "name=<name>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Workspace",
+    "command": "tabs",
+    "parameters": [],
+    "flags": [
+      "ids"
+    ]
+  },
+  {
+    "section": "Workspace",
+    "command": "tab:open",
+    "parameters": [
+      "group=<id>",
+      "file=<path>",
+      "view=<type>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Workspace",
+    "command": "recents",
+    "parameters": [],
+    "flags": [
+      "total"
+    ]
+  },
+  {
+    "section": "Developer commands",
+    "command": "devtools",
+    "parameters": [],
+    "flags": []
+  },
+  {
+    "section": "Developer commands",
+    "command": "dev:debug",
+    "parameters": [],
+    "flags": [
+      "on",
+      "off"
+    ]
+  },
+  {
+    "section": "Developer commands",
+    "command": "dev:cdp",
+    "parameters": [
+      "method=<CDP.method>",
+      "params=<json>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Developer commands",
+    "command": "dev:errors",
+    "parameters": [],
+    "flags": [
+      "clear"
+    ]
+  },
+  {
+    "section": "Developer commands",
+    "command": "dev:screenshot",
+    "parameters": [
+      "path=<filename>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Developer commands",
+    "command": "dev:console",
+    "parameters": [
+      "limit=<n>",
+      "level=log|warn|error|info|debug"
+    ],
+    "flags": [
+      "clear"
+    ]
+  },
+  {
+    "section": "Developer commands",
+    "command": "dev:css",
+    "parameters": [
+      "selector=<css>",
+      "prop=<name>"
+    ],
+    "flags": []
+  },
+  {
+    "section": "Developer commands",
+    "command": "dev:dom",
+    "parameters": [
+      "selector=<css>",
+      "attr=<name>",
+      "css=<prop>"
+    ],
+    "flags": [
+      "total",
+      "text",
+      "inner",
+      "all"
+    ]
+  },
+  {
+    "section": "Developer commands",
+    "command": "dev:mobile",
+    "parameters": [],
+    "flags": [
+      "on",
+      "off"
+    ]
+  },
+  {
+    "section": "Developer commands",
+    "command": "eval",
+    "parameters": [
+      "code=<javascript>"
+    ],
+    "flags": []
+  }
+]

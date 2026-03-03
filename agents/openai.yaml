@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian Native CLI"
+  short_description: "Use Obsidian native CLI for vault maintenance"
+  default_prompt: "Use Obsidian native CLI commands to maintain and automate this vault."
